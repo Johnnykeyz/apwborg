@@ -945,10 +945,12 @@
             .mobile-menu-toggle {
                 display: block;
             }
+               
             .header-tabs {
             font-size:12px;
-            gap: 0;
-            align-items:center;
+            gap: 10px;
+            align-items: center;
+            flex-direction: column;
             justify-items: flex-start;
         }
 
