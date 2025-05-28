@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Association of Professional Women Bankers</title>
+    <meta name="description" content="Empowering women in banking through mentorship, professional development, and thought leadership.">
+    <link rel="stylesheet" href="apwb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Additional CSS for carousel images - not in original CSS file */
+        .carousel-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        
+        .carousel-slide::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 2;
+        }
+        
+        .carousel-content {
+            z-index: 3;
+            position: relative;
+        }
+        
+        /* Ensure proper image loading */
+        .carousel-slide img {
+            transition: opacity 0.5s ease;
+        }
+        
+        .carousel-slide:not(.active) img {
+            opacity: 0;
+        }
+        
+        .carousel-slide.active img {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+     <div class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="apwblogoNbg.png" alt="apwblogo">
+                </a> 
+
+            </div>
+            <div class="social-menu">
+                <div class="social-links-head">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="header-tabs">
+                <a href="register.html" class="header-tab">Join Us</a>
+                <a href="login.html" class="header-tab"><span>Login</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="Initiatives.html" class="nav-link">Initiatives</a></li>
+                <li><a href="Leadership.html" class="nav-link">Leadership</a></li>
+                <li><a href="Mentorship.html" class="nav-link active">Mentoring</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="#search" class="nav-link"><i class="fas fa-search"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+        <!-- Mentor Section -->
+        <section id="mentor" class="mentor-section">
+            <div class="container">
+                <div class="mentor-content fade-in">
+                    <h2>Become a Mentor or Mentee</h2>
+                    <p>Join our acclaimed mentoring program and be part of a transformative journey. Whether you're looking to share your expertise or accelerate your career growth, our program connects you with the right opportunities and relationships.</p>
+                    <a href="#mentor-application" class="apply-btn">Apply Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About APWB</h3>
+                    <ul>
+                        <li><a href="#mission">Our Mission</a></li>
+                        <li><a href="#history">Our History</a></li>
+                        <li><a href="#leadership">Leadership Team</a></li>
+                        <li><a href="#partners">Corporate Partners</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li><a href="#mentoring">Mentoring Program</a></li>
+                        <li><a href="#webinars">Webinar Series</a></li>
+                        <li><a href="#training">Training & Development</a></li>
+                        <li><a href="#networking">Networking Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#research">Research Papers</a></li>
+                        <li><a href="#tools">Career Tools</a></li>
+                        <li><a href="#library">Resource Library</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <ul>
+                        <li><a href="#contact">Contact Information</a></li>
+                        <li><a href="#membership">Join APWB</a></li>
+                        <li><a href="#newsletter">Newsletter</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Association of Professional Women Bankers. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load JavaScript -->
+    <script src="apwb_script.js"></script>
+</body>
+</html>
