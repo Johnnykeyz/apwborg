@@ -646,12 +646,7 @@ function enhanceAccessibility() {
         slide.setAttribute('aria-label', `Slide ${index + 1} of ${carouselSlides.length}`);
     });
     
-    // Skip to main content link
-    const skipLink = document.createElement('a');
-    skipLink.href = '#main-content';
-    skipLink.className = 'skip-to-main';
-    skipLink.textContent = 'Skip to main content';
-    document.body.insertBefore(skipLink, document.body.firstChild);
+    
 }
 
 // Initialize accessibility enhancements
