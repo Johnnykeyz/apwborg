@@ -945,6 +945,12 @@
             .mobile-menu-toggle {
                 display: block;
             }
+            .header-tabs {
+            font-size:12px;
+            gap: 0;
+            align-items:center;
+            justify-items: flex-start;
+        }
 
             .nav-menu {
                 position: absolute;
