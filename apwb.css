@@ -21,15 +21,15 @@
 
          
         .header {
-            position: relative;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.98);
-            backdrop-filter: blur(10px);
-            z-index: 1001;
-            padding: 0 1rem;
-           
+             position: fixed;
+             top: 0; /*  that was here */
+             left: 0;
+             width: 100%;
+             background: rgba(255, 255, 255, 0.98);
+             backdrop-filter: blur(10px);
+             z-index: 1001;
+             padding: 0 1rem;
+             height: 80px; /* ADD THIS LINE */
         }
 
          .social-links-head {
@@ -121,9 +121,10 @@
 
         /* Navigation */
         .navbar {
-            position: relative;
-            top: 2px; /* Position below header */
+            position: fixed;
+            top: 80px; /* CHANGE from "top: 1px;/*ition below hea */
             left: 0;
+    /* REMOVE this line: margin-top: 120px; */
             width: 100%;
             background: #228B22 !important;
             backdrop-filter: blur(10px);
