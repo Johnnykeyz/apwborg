@@ -17,6 +17,7 @@
             line-height: 1.5;
             overflow-x: hidden;
             font-size: 13px;
+            padding-top: 130px;
         }
 
          
@@ -945,6 +946,10 @@
         @media (max-width: 768px) {
             .mobile-menu-toggle {
                 display: block;
+            }
+
+            body{
+                padding-top: 160px;
             }
                
             .header-tabs {
