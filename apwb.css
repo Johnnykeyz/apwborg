@@ -125,7 +125,7 @@
             top: 2px; /* Position below header */
             left: 0;
             width: 100%;
-            background: rgba(244, 248, 246, 0.953);
+            background: #228B22 !important;
             backdrop-filter: blur(10px);
             z-index: 1000;
             padding: 1rem 0;
@@ -152,7 +152,7 @@
 
         .nav-link {
             text-decoration: none;
-            color: #333;
+            color: white;
             font-weight: 500;
             transition: all 0.3s ease;
             position: relative;
@@ -160,7 +160,7 @@
         }
 
         .nav-link:hover, .nav-link.active {
-            color: #228B22;
+            color: white;
             transform: translateY(-2px);
         }
 
