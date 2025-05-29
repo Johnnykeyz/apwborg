@@ -205,7 +205,7 @@
             background: none;
             border: none;
             font-size: 1.5rem;
-            color: #333;
+            color: white;
             cursor: pointer;
             padding: 10px;
             border-radius: 5px;
@@ -214,7 +214,7 @@
 
         .mobile-menu-toggle:hover {
             background: rgba(34, 139, 34, 0.1);
-            color: #228B22;
+            color: #333;
         }
 
         /* Hero Section with Carousel */
@@ -959,7 +959,7 @@
                 top: 100%;
                 left: 0;
                 width: 100%;
-                background: rgba(255, 255, 255, 0.98);
+                background: #228B22;
                 flex-direction: column;
                 padding: 2rem;
                 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
